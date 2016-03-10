@@ -1,5 +1,12 @@
 <% provide(:title, "Home") %>
 
+<p>
+    <%= link_to "Home", {:controller => 'static_pages', :action => 'home'} %> -
+    <%= link_to "Help", {:controller => 'static_pages', :action => 'help'} %> -
+    <%= link_to "About", {:controller => 'static_pages', :action => 'about'} %> -
+    <%= link_to "Contact", {:controller => 'static_pages', :action => 'contact'} %>
+</p>
+
 <h1>Sample App</h1>
 <p>
     This is the home page for the
